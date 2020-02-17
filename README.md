@@ -1,3 +1,16 @@
+## Build the docker containers
+
+```bash
+docker-compose build
+```
+
+## Start the docker containers
+
+```bash
+docker-compose up -d
+```
+
+
 ## Download kafka utils
 
 ```bash
