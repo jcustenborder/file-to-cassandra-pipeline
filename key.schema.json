@@ -1,0 +1,11 @@
+{
+  "name": "io.confluent.examples.model.UserKey",
+  "type": "STRUCT",
+  "isOptional": false,
+  "fieldSchemas": {
+    "id": {
+      "type": "INT64",
+      "isOptional": true
+    }
+  }
+}

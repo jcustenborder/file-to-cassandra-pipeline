@@ -1,0 +1,2 @@
+wget 'https://github.com/jcustenborder/kafka-tools/releases/download/0.0.1.5/kafka-tools-0.0.1.5.tar.gz' -O '/tmp/kafka-tools-0.0.1.5.tar.gz'
+tar xzvf /tmp/kafka-tools-0.0.1.5.tar.gz -C ./lib/kafka-tools

@@ -1,0 +1,13 @@
+{
+  "name": "cassandra",
+  "tasks.max": "1",
+  "topics": "users",
+  "connector.class": "io.confluent.connect.cassandra.CassandraSinkConnector",
+  "cassandra.contact.points": "cassandra",
+  "cassandra.keyspace": "test",
+  "cassandra.compression": "SNAPPY",
+  "cassandra.consistency.level": "LOCAL_QUORUM",
+  "confluent.topic.bootstrap.servers": "kafka:9092",
+  "confluent.topic.replication.factor": "1",
+  "cassandra.keyspace.replication.factor": "1"
+}
